@@ -4,7 +4,8 @@ public class AccountHandler {
      integer counter=1;
         while(counter < n){
            Account a=new Account();
-            a.Name='Acme Inc n'+counter;
+//account name must       
+	   a.Name='Acme Inc n'+counter;
             a.AccountNumber='A000n'+counter;
             counter=counter+1;
           addAccounts.add(a); 
